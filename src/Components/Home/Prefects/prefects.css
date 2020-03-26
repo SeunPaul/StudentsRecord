@@ -1,0 +1,18 @@
+.main{
+	background-color: white;
+	padding: 30px 50px;
+	text-align: center;
+	
+	
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h2{
+	font-family: Times new roman;
+	font-size: 30px;
+
+}
