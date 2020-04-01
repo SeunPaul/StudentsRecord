@@ -1,13 +1,13 @@
 import React from 'react'
-import './footer.css'
+import './end.css'
 import WL from './whatsapp logo.png'
 
-const Footer = () =>{
+const End = () =>{
 	return(
 		<div className = "footer">
 			<h3>sponsors</h3>
 			<div className = "imageList">
-				<img className = "footerImg" src = {WL} alt = "images"/>
+				<img className = "footerImg" src = {WL} alt = "default"/>
 
 			</div>
 		</div>
@@ -18,4 +18,4 @@ const Footer = () =>{
 
 }
 
-export default Footer;
+export default End;

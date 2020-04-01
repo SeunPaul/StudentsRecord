@@ -4,12 +4,23 @@
 	font-family: "Times New Roman";
 	background-color: rgb(128, 0, 0);
 	height: 40px;
-	padding-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 10px;
 	position: fixed;
 	top: 0px;
 	width: 100%;
+	overflow: hidden;
 }
-.up p{
-	margin: 0px;
+.navImage{
+	height: 18px;
+	width: 20px;
+	margin-right: 4px;
+}
+
+.leftLi{
+	float: left;
+}
+.rightLi{
+	float: right;
 }

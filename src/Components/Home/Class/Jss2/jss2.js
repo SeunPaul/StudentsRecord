@@ -1,14 +1,14 @@
 import React from 'react';
 import Tile from '../Tile/tile';
-import {maleJoneList, femaleJoneList} from './joneList';
+import {maleJtwoList, femaleJtwoList} from './jtwoList';
 import SearchBox from '../searchbox';
 
-class Jone extends React.Component{
-	constructor(props){
-		super(props)
+class Jtwo extends React.Component{
+	constructor(){
+		super()
 		this.state = {
-			mJoneL: maleJoneList,
-			fJoneL: femaleJoneList,
+			mJtwoL: maleJtwoList,
+			fJtwoL: femaleJtwoList,
 			searchContent: ""
 
 		}
@@ -20,10 +20,10 @@ class Jone extends React.Component{
 
 	render(){
 
-		const filteredMjoneL = this.state.mJoneL.filter((student) =>{
+		const filteredMJtwoL = this.state.mJtwoL.filter((student) =>{
 			return student.name.toLowerCase().includes(this.state.searchContent.toLowerCase())
 		})
-		const filteredFjoneL = this.state.fJoneL.filter((student) =>{
+		const filteredFJtwoL = this.state.fJtwoL.filter((student) =>{
 			return student.name.toLowerCase().includes(this.state.searchContent.toLowerCase())
 		})
 		
@@ -35,7 +35,7 @@ class Jone extends React.Component{
 				<h3 className = 'calisto pl3 bg-light-gray h2 flex items-center'>male</h3>
 				<div className = 'flex flex-wrap pa3'>
 					{
-						filteredMjoneL.map((user, i)=>{
+						filteredMJtwoL.map((user, i)=>{
 							return <Tile key = {user.name} user = {user} onRouteChange = {this.props.onRouteChange} onStudentPageRequest = {this.props.onStudentPageRequest}/>
 
 						})
@@ -44,7 +44,7 @@ class Jone extends React.Component{
 				<h3 className = 'calisto pl3 bg-light-gray h2 flex items-center'>female</h3>
 				<div className = 'flex flex-wrap pa3'>
 					{
-						filteredFjoneL.map((user, i)=>{
+						filteredFJtwoL.map((user, i)=>{
 							return <Tile key = {user.name} user = {user} onRouteChange = {this.props.onRouteChange} onStudentPageRequest = {this.props.onStudentPageRequest}/>
 
 						})
@@ -56,4 +56,4 @@ class Jone extends React.Component{
 		
 }
 
-export default Jone;
+export default Jtwo;

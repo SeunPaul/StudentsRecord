@@ -8,14 +8,14 @@
 	border-radius: 5px;
 }
 
-ul{
+.headerUl{
 	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-button{
+.headerButton{
 	font-size: 15px;
 	background-color: white;
 	color: rgb(128, 0, 0);

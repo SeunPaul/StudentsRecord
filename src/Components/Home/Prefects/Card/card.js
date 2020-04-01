@@ -11,8 +11,8 @@ const Card = (props) =>{
 			</div>
 			<div>
 				<h4>{props.name}</h4>
-				<h4>{props.sex}</h4>
-				<h4>{props.Class}</h4>
+				<p>{props.sex}</p>
+				<p>{props.Class}</p>
 			</div>
 			
 		</div>	

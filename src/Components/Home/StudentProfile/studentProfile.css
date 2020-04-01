@@ -1,0 +1,29 @@
+.sImageL{
+	float: left;
+}
+
+.sImageR{
+	float: right;
+}
+.background{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.container{
+	width: 800px;
+	padding: 10px;
+	box-shadow: 2px 2px 5px grey;
+
+}
+
+table, td{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+table{
+	width: 100%;
+}
+td{
+	padding: 10px;
+}
