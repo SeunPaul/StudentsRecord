@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/StudentsRecord/static/css/main.16ca8134.chunk.css",
+    "main.js": "/StudentsRecord/static/js/main.39ffbdd1.chunk.js",
+    "main.js.map": "/StudentsRecord/static/js/main.39ffbdd1.chunk.js.map",
+    "runtime-main.js": "/StudentsRecord/static/js/runtime-main.9bb6910c.js",
+    "runtime-main.js.map": "/StudentsRecord/static/js/runtime-main.9bb6910c.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/StudentsRecord/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.b802cac4.chunk.js": "/StudentsRecord/static/js/2.b802cac4.chunk.js",
+    "static/js/2.b802cac4.chunk.js.map": "/StudentsRecord/static/js/2.b802cac4.chunk.js.map",
+    "index.html": "/StudentsRecord/index.html",
+    "precache-manifest.53e2600e5dc2bc7342d7249d5a1ddba3.js": "/StudentsRecord/precache-manifest.53e2600e5dc2bc7342d7249d5a1ddba3.js",
+    "service-worker.js": "/StudentsRecord/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/StudentsRecord/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.16ca8134.chunk.css.map": "/StudentsRecord/static/css/main.16ca8134.chunk.css.map",
+    "static/js/2.b802cac4.chunk.js.LICENSE.txt": "/StudentsRecord/static/js/2.b802cac4.chunk.js.LICENSE.txt",
+    "static/media/homeLogo.png": "/StudentsRecord/static/media/homeLogo.5d4b90f7.png",
+    "static/media/schoolLogo.png": "/StudentsRecord/static/media/schoolLogo.e1f92cf0.png",
+    "static/media/index.css": "/StudentsRecord/static/media/schoolPhoto.a2a188d0.jpg",
+    "static/media/seun.jpg": "/StudentsRecord/static/media/seun.96fffeda.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bb6910c.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.b802cac4.chunk.js",
+    "static/css/main.16ca8134.chunk.css",
+    "static/js/main.39ffbdd1.chunk.js"
+  ]
+}
